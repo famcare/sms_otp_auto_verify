@@ -105,6 +105,7 @@ class TextFieldPin extends StatelessWidget {
         autofocus: autoFocus,
         enableIMEPersonalizedLearning: false,
         enableInteractiveSelection: false,
+        key: ValueKey('KEY_VARIFCATION_TEXTFILED'),
         style: TextStyle(color: Colors.transparent),
         decoration: InputDecoration(
             fillColor: Colors.transparent,
